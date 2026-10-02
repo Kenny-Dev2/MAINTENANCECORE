@@ -1,5 +1,7 @@
 from menus.exibir_menu_principal import exibir_menu_principal
-import equipamento
+from menu_equipamento import menu_equipamento
+
+from utils.limpar_tela import limpar_tela
 
 def menu_principal():
   while True:
@@ -20,7 +22,8 @@ def menu_principal():
 
     #Entra em Equipamentos#
     elif (opcao == 1):
-      equipamento.menu_equipamento()
+      limpar_tela()
+      menu_equipamento()
 
     else:
       print("Opção Invalida. Digite alguma das opções")
