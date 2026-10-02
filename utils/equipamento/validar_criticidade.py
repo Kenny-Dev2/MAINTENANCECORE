@@ -22,6 +22,6 @@ Criticidade:
     elif (criticidade == 3):
       return "alta"
     elif (criticidade == 4):
-      return "crítica"
+      return "crítico"
     else:
       print("Opção invalida\n")
