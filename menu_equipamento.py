@@ -1,5 +1,6 @@
 from equipamento.cadastrar import cadastrar_equipamento
 from equipamento.listar import lista_de_equipamento
+from equipamento.consultar import consultar_equipamento
 
 from menus.exibir_menu_equipamento import exibir_menu_equipamentos
 
@@ -32,7 +33,7 @@ def menu_equipamento():
       lista_de_equipamento()
 
     elif (opcao == 3):
-      print("Consultar banco")
+      consultar_equipamento()
     
     else:
       print("Opção Invalida. Digite alguma das opções")
